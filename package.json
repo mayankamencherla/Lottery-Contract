@@ -1,0 +1,27 @@
+{
+  "name": "ethereum",
+  "version": "1.0.0",
+  "description": "- This repo contains some basic solidity smart contracts to be deployed on a test ethereum network",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankamencherla/Ethereum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayankamencherla/Ethereum/issues"
+  },
+  "homepage": "https://github.com/mayankamencherla/Ethereum#readme",
+  "dependencies": {
+    "ganache-cli": "^6.1.8",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.24",
+    "truffle-hdwallet-provider": "0.0.6",
+    "web3": "^1.0.0-beta.35"
+  }
+}
